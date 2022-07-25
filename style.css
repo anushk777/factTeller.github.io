@@ -1,0 +1,16 @@
+
+body{
+background: #fffff0;
+}
+
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+::placeholder{
+  font-weight: 700;
+  font-style: italic;
+
+}
