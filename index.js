@@ -10,7 +10,7 @@ function getFacts() {
   // console.log(input);
   if (input != '') {
     crd.classList.remove('d-none')
-    fetch(`http://numbersapi.com/${input}`)
+    fetch(`https://numbersapi.com/${input}`)
       .then((response) => response.text())
       .then((data) => {
         crd_title.innerHTML = input
